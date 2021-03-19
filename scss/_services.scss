@@ -1,0 +1,15 @@
+@import "layout-variables";
+@import "mixin";
+.services
+{
+    @include section-space();
+    h2 
+    {
+        color: $heading-color;
+        font-family: be-vietnamlight;
+    }
+    ul 
+    {
+        padding-left: 15px;
+    }
+}

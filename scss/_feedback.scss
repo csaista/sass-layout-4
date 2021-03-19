@@ -1,0 +1,38 @@
+@import "layout-variable";
+@import "layout-mixin";
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+.feedback-wrapper {
+    margin-top: 70px;
+    background-color: $purple;
+
+    .people {
+        .people-img {
+            object-fit: cover;
+            object-position: center center;
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    .feedbacks {
+        
+        align-self: center;
+       
+        height: 100%;
+
+        .feedback-content {
+            .feedback-text {
+                vertical-align: middle;
+                color: white;
+                padding-left: 50px;
+                padding-right: 50px;
+                p 
+                {
+                    font-family: 'Lora';
+                    font-style: italic;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

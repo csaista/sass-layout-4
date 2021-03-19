@@ -1,0 +1,33 @@
+@import "fontawesome.scss";
+@import "brands.scss";
+@import "regular.scss";
+@import "solid.scss";
+@import "variables";
+.feature-wrappper
+{
+    margin-top: 70px;
+    .feature 
+    {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        .feature-icon 
+        {
+            font-size: 45px;
+            text-align: center;
+            i 
+            {
+                color: $pink;
+            }
+        }
+        .feature-title 
+        {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 15px;
+        }
+
+    }
+}

@@ -1,0 +1,67 @@
+@import "layout-variable";
+
+.contact-wrapper {
+    background-color: $light-blue-footer;
+    margin-top: 70px;
+    color: white;
+
+    .contact-detail {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .contact {
+            a {
+                text-decoration: none;
+
+                h6 {
+                    font-weight: 700;
+                    font-size: 15px;
+                    color: white;
+                }
+
+                p {
+                    // margin-top: 15px;
+                    font-size: 14px;
+                    color: white;
+                }
+
+                
+            }
+        }
+
+        .social-media {
+            margin-bottom: 16px;
+            h6 {
+                margin-bottom: 20px;
+            }
+
+            .social-media-icon {
+                color: white;
+                margin-right: 10px;
+                
+                padding: 5px;
+                margin-top: 15px;
+                
+
+                &:hover {
+                    color: $pink;
+                }
+            }
+
+        }
+        .about-us 
+        {
+            h6 
+            {
+                font-size: 15px;
+                font-weight: 700;
+            }
+            p 
+            {
+                // margin-top: 15px;
+                font-size: 14px;
+            }
+        }
+    }
+
+}

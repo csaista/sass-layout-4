@@ -1,0 +1,43 @@
+@import "layout-variable";
+.download-wrapper 
+{
+    margin-top: 70px;
+    text-align: center;
+    
+    h5
+    {
+        
+        font-size: 28px;
+        font-weight: 300;
+    }
+    p 
+    {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    button 
+    {
+        background-color: $pink;
+        color: white;
+        border-radius: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 14px;
+        margin-top: 10px;
+        font-weight: 600;
+        &:hover
+        {
+            background-color: $light-blue-footer;
+            color: white;
+        }
+        &:active 
+        {
+            background-color: $dark-blue-footer;
+        }
+        &:focus
+        {
+            box-shadow: none;
+        }
+    }
+}

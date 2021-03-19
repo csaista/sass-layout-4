@@ -1,0 +1,28 @@
+.work-gallary-wrapper {
+    margin-top: 70px;
+
+    .work-gallary {
+        display: flex;
+        justify-content: space-between;
+
+        .work {
+            .work-img {
+                height: 250px;
+                width: 100%;
+                object-fit: cover;
+                object-position: center center;
+                padding-right: 10px;
+                padding-bottom: 10px;
+
+            }
+
+            .new-york, .tokyo {
+                padding-right: 0px;
+            }
+            
+        }
+
+    }
+
+
+}

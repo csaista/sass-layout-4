@@ -1,0 +1,425 @@
+@import "layout-mixin";
+@import "layout-variable";
+
+@include phone() {
+    header {
+        .navigation-bar 
+        {
+            .logo-img {
+                width: 70px;
+            }
+        }
+        .banner-wrapper 
+        {
+            height: 500px;
+            .banner-content
+            {
+                .banner-text
+                {
+                    h1 
+                    {
+                        font-size: 24px;
+                    }
+                    p 
+                    {
+                        font-size: 13px;
+                        padding-left: 0px;
+                        padding-right: 0px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .feature-wrappper 
+    {
+        margin-top: 10px;
+        .feature
+        {
+            margin-top: 20px;
+            .feature-icon 
+            {
+                font-size: 32px;
+            }
+            .feature-title
+            {
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+            .feature-detail
+            {
+                font-size: 14px;
+                
+            }
+        }
+    }
+    .work-gallary-wrapper
+    {
+        margin-top: 30px;
+        .work-gallary
+        {
+            .work
+            {
+                .work-img
+                {
+                    height: 250px;
+                    padding-right: 0px;
+                }
+                
+                
+            }
+        }
+    }
+    .feedback-wrapper
+    {
+        margin-top: 30px;
+        .feedbacks
+        {
+            .feedback-content
+            {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                .feedback-text
+                {
+                    p 
+                    {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .download-wrapper 
+    {
+        margin-top: 30px;
+        h5 
+        {
+            font-size: 20px;
+        }
+        p 
+        {
+            font-size: 13px;
+        }
+        button
+        {
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 14px;
+        }
+    }
+    .contact-wrapper
+    {
+        margin-top: 30px;
+        .contact-detail
+        {
+            .social-media,.about-us
+            {
+                margin-top: 25px;
+                h6 
+                {
+                    margin-bottom: 10px;
+                }
+                p
+                {
+                    margin-top: 0px;
+                }
+                .social-media-icon 
+                {
+                    margin-top: 10px;
+                }
+                
+            }
+            
+        }
+    }
+}
+@include tablet()
+{
+    header {
+        .navigation-bar 
+        {
+            .logo-img {
+                width: 80px;
+            }
+        }
+        .banner-wrapper 
+        {
+            height: 600px;
+            .banner-content
+            {
+                .banner-text
+                {
+                    h1 
+                    {
+                        font-size: 28px;
+                    }
+                    p 
+                    {
+                        font-size: 14px;
+                        padding-left: 0px;
+                        padding-right: 0px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .feature-wrappper 
+    {
+        margin-top: 20px;
+        .feature
+        {
+            margin-top: 35px;
+            .feature-icon 
+            {
+                font-size: 34px;
+                margin-bottom: 15px;
+            }
+            .feature-title
+            {
+                font-size: 15px;
+                margin-bottom:5px;
+            }
+            .feature-detail
+            {
+                font-size: 14px;
+                
+            }
+        }
+    }
+    .work-gallary-wrapper
+    {
+        margin-top: 35px;
+        .work-gallary
+        {
+            .work
+            {
+                .work-img
+                {
+                    height: 250px;
+                }
+                .new-york {
+                    padding-right: 10px;
+                }
+                .paris,.rome,.tokyo
+                {
+                    padding-right: 0px;
+                }
+            }
+        }
+    }
+    .feedback-wrapper
+    {
+        margin-top: 35px;
+        .feedbacks
+        {
+            .feedback-content
+            {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                .feedback-text
+                {
+                    p 
+                    {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .download-wrapper 
+    {
+        margin-top: 35px;
+        h5 
+        {
+            font-size: 22px;
+        }
+        p 
+        {
+            font-size: 14px;
+        }
+        button
+        {
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 16px;
+        }
+    }
+    .contact-wrapper
+    {
+        margin-top: 35px;
+        .contact-detail
+        {
+            .social-media,.about-us
+            {
+                margin-top: 25px;
+                h6 
+                {
+                    margin-bottom: 10px;
+                }
+                p
+                {
+                    margin-top: 0px;
+                }
+                .social-media-icon 
+                {
+                    margin-top: 10px;
+                }
+                
+            }
+            
+        }
+    }
+}
+@include desktop() 
+{
+    header {
+        .navigation-bar 
+        {
+            .logo-img {
+                width: 80px;
+            }
+        }
+        .banner-wrapper 
+        {
+            height: 700px;
+            .banner-content
+            {
+                .banner-text
+                {
+                    h1 
+                    {
+                        font-size: 32px;
+                    }
+                    p 
+                    {
+                        font-size: 16px;
+                        padding-left: 80px;
+                        padding-right: 80px;
+                        margin-top: 20px;
+                    }
+                    button 
+                    {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .feature-wrappper 
+    {
+        margin-top: 20px;
+        .feature
+        {
+            margin-top: 35px;
+            .feature-icon 
+            {
+                font-size: 36px;
+                margin-bottom: 15px;
+            }
+            .feature-title
+            {
+                font-size: 15px;
+                margin-bottom:5px;
+            }
+            .feature-detail
+            {
+                font-size: 14px;
+                
+            }
+        }
+    }
+    .work-gallary-wrapper
+    {
+        margin-top: 35px;
+        .work-gallary
+        {
+            .work
+            {
+                .work-img
+                {
+                    height: 250px;
+                }
+                
+            }
+        }
+    }
+    .feedback-wrapper
+    {
+        margin-top: 35px;
+        .feedbacks
+        {
+            .feedback-content
+            {
+                .feedback-text
+                {
+                    p 
+                    {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+    .download-wrapper 
+    {
+        margin-top: 35px;
+        h5 
+        {
+            font-size: 26px;
+        }
+        p 
+        {
+            font-size: 16px;
+        }
+        button
+        {
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 16px;
+        }
+    }
+    .contact-wrapper
+    {
+        margin-top: 35px;
+    }
+}
+@include xx-large()
+{
+    header {
+        
+        .banner-wrapper 
+        {
+           
+            .banner-content
+            {
+                .banner-text
+                {
+                   
+                    p 
+                    {
+                        
+                        padding-left: 250px;
+                        padding-right: 250px;
+                       
+                    }
+                    button 
+                    {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .feature-wrappper 
+    {
+       
+        .feature
+        {
+            margin-top: 40px;
+            
+        }
+    }
+}
